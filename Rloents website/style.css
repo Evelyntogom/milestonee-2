@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bitter', serif;
+    background-color: rgb(19, 185, 102);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align:right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+    a{
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.849);
+    }
+    p{
+        color:#555;
+    }
+    .container{
+        max-width: 1300px;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }.row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .col-2{
+        flex-basis: 55px;
+        min-width: 300px;
+    }
+    .col-2 img{
+        max-width: 100%;
+        padding: 50px 0;
+    }
+    .col-2 h1{
+        font-size: 50px;
+        line-height: 60px;
+        margin: 25px 0;
+    }.btn{
+        display: inline-block;
+        background:#2bd81b;
+        color: rgb(71, 240, 29);
+        padding: 8px 30px;
+        margin: 30px 0;
+        border-radius: 30px;
+        transition: background 0.5s;
+    } 
+     .btn :hover{
+         background: rgb(85, 85, 85);
+    
+     }
+    .header{
+        background: radial-gradient(#fff, #b4149f);
+    }
+    .header row{
+              margin-top: 70px;
+    }
+    .categories{
+        margin: 70px 0;
+    }
+    .col-3{
+        flex-basis: 30%;
+        min-width: 250px;  margin-bottom: 300px;
+    }
+    .col-3{
+        width: 100%;
+    }
+    .small-container{
+        max-width: 1088px;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .col-4{
+        flex-basis: 25%;
+        padding: 10px; min-width: 200;
+        margin-bottom: 50px;
+        transition: transform 0.9s;
+    
+    }
+    .col-4 img{
+        width: 100%;
+    }
+    .title{
+        text-align: center;
+        margin: 0 auto 80px;
+        position: relative;
+        line-height: 80px;
+        color: rgb(0, 0, 0);
+    }
+    .title ::after{
+        content:'';
+        background: #0f1f55;
+        width: 80px;
+        height: 5px;
+        border-radius: 5px;
+        position: absolute; bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .h4{
+        color: rgb(145, 13, 134);
+        font-weight: normal;
+    }
+    .col-4 p{
+        font-size: 14px;  
+    }
+    .rating{
+        color:#b1ec0d 
+    }
+    .col-4:hover{
+        transform: translateY(-5px)
+    }
+    .col-5{ bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .h4{
+        color: #555;
+        font-weight: normal;
+    }
+    .col-4 p{
+        font-size: 14px;  
+    }
+    .rating{
+        color:#790766 
+    }
+    .col-4:hover{
+        transform: translateY(-5px)
+    }
+    .col-5{position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .h4{
+        color: #555;
+        font-weight: normal;
+    }
+    .col-5 p{
+        font-size: 14px;  
+    }
+    .rating{
+        columns: #1b036e; 
+    }
+    .col-5:hover{
+        transform: translateY(-5px)
+    }
+    /*----------footer----------*/
+    .footer{
+        background-color: rgb(221, 94, 9);
+        font-size: 15px;
+        padding: 60px 0 20px;
+    }
+    .footer p{
+        color: rgb(149, 218, 195);
+    }
+    .footer h3{
+        columns: rgb(129, 124, 124);
+    margin-bottom:30px;
+}
+    .footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
+        min-width: 300px;
+        margin-bottom: 20px;
+    }
+    .footer-col-2{
+        flex-basis: 30%;
+    }
+    .footer-col-2{
+        flex: 1;
+        text-align: center;
+    }
+    .footer-col-3,.footer-col-4{
+        flex-basis: 15%;
+        text-align: center;
+    }
+    .footer hr{
+ border: #2bd81b;
+ background: #b1ec0d;
+ height: 1px;
+ margin: 20px;
+    }
+    .Copyright{
+        text-align: center;
+    }
+    .categories{
+        box-shadow: 0.4px 8px #ff523b;
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+    }
+    .price{
+        color: blueviolet;
+        font-size: 22px;
+    }
+    .categories button{
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: crimson;
+        background-color: darkgoldenrod;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+  
